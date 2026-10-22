@@ -1,0 +1,48 @@
+
+[
+  {
+    "title": "Frontend Developer Intern",
+    "company": "TechNova Solutions",
+    "location": "Pune, India",
+    "type": "Remote",
+    "stipend": 12000,
+    "description": "Build responsive interfaces using HTML, CSS, JavaScript and React.",
+    "applyUrl": "https://example.com/apply/frontend"
+  },
+  {
+    "title": "Node.js Backend Intern",
+    "company": "CloudBridge Technologies",
+    "location": "Mumbai, India",
+    "type": "Hybrid",
+    "stipend": 15000,
+    "description": "Develop REST APIs, validate requests and work with SQL databases.",
+    "applyUrl": "https://example.com/apply/backend"
+  },
+  {
+    "title": "Electronics and IoT Intern",
+    "company": "SmartCircuit Labs",
+    "location": "Nagpur, India",
+    "type": "On-site",
+    "stipend": 10000,
+    "description": "Assist with sensor interfacing, microcontrollers and IoT prototypes.",
+    "applyUrl": "https://example.com/apply/iot"
+  },
+  {
+    "title": "Data Analyst Intern",
+    "company": "InsightWorks",
+    "location": "Remote",
+    "type": "Remote",
+    "stipend": 8000,
+    "description": "Clean datasets, analyze trends and create data visualizations.",
+    "applyUrl": "https://example.com/apply/analyst"
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "CodePeak Systems",
+    "location": "Hyderabad, India",
+    "type": "Hybrid",
+    "stipend": 14000,
+    "description": "Develop and test Java applications with database integration.",
+    "applyUrl": "https://example.com/apply/java"
+  }
+]
