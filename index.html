@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InternBoard | Internship Portal</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+    header {
+      background: #142b52;
+      color: white;
+      padding: 22px 8%;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(135deg, #142b52, #2764a5);
+      color: white;
+      padding: 70px 8%;
+      text-align: center;
+    }
+    .hero h1 { font-size: 42px; margin: 0 0 16px; }
+    .hero p { font-size: 18px; line-height: 1.6; }
+    .content {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 5px 20px #142b5212;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      padding: 13px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #status { font-weight: bold; overflow-wrap: anywhere; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #667085;
+    }
+  </style>
+</head>
+<body>
+  <header>InternBoard</header>
+
+  <section class="hero">
+    <h1>Find Your Next Opportunity</h1>
+    <p>Discover internships, explore career opportunities, and take
+       the next step toward your professional future.</p>
+    <button onclick="document.getElementById('opportunities').scrollIntoView({behavior:'smooth'})">
+      Explore Internships
+    </button>
+  </section>
+
+  <main class="content">
+    <section class="card">
+      <h2>Welcome to InternBoard</h2>
+      <p>A platform designed to help students discover internship
+         opportunities and build their careers.</p>
+    </section>
+
+    <section class="card" id="opportunities">
+      <h2>Internship Opportunities</h2>
+      <p id="status">This is the website homepage. The API backend
+         must be hosted separately to load live internship records.</p>
+    </section>
+
+    <section class="card">
+      <h2>About Us</h2>
+      <p>InternBoard provides a simple way to organize and explore
+         internship listings through a REST API.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 InternBoard | Internship Portal</footer>
+</body>
+</html>
